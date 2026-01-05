@@ -6,7 +6,7 @@
 
 // ╔════════════════════════════════════════ PACK ════════════════════════════════════════╗
 
-    import type { SpaceType, SpaceTypeConfig, TemplateVariant } from '../../types.d';
+    import type { SpaceType, SpaceTypeConfig, TemplateVariant } from '../../types';
 
 // ╚══════════════════════════════════════════════════════════════════════════════════════╝
 

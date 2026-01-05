@@ -8,7 +8,7 @@
 
     import * as fs                      from 'fs';
     import * as path                    from 'path';
-    import type { SpaceConfig, TemplateVariant } from '../../types.d';
+    import type { SpaceConfig, TemplateVariant } from '../../types';
     import { TemplateRegistry }         from './templateRegistry';
     import { JsonFormatter, PACKAGE_JSON_KEY_ORDER, SPACE_FILE_KEY_ORDER } from './jsonFormatter';
 

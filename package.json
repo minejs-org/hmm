@@ -1,48 +1,48 @@
 {
 	"name"                             : "@minejs/hmm",
-	"version"                          : "0.0.5",
+	"version"                          : "0.0.6",
 	"description"                      : "Creates and manages spaces",
 	"keywords"                         : ["minejs", "hmm", "framework"],
 	"license"                          : "MIT",
 	"homepage"                         : "https://github.com/minejs-org/hmm#readme",
-	"bugs"                             : {
+	"bugs": {
 		"url"                          : "https://github.com/minejs-org/hmm/issues"
 	},
-	"author"                           : {
+	"author": {
 		"name"                         : "Maysara",
 		"email"                        : "maysara.elshewehy@gmail.com",
 		"url"                          : "https://github.com/maysara-elshewehy"
 	},
-	"repository"                       : {
+	"repository": {
 		"type"                         : "git",
 		"url"                          : "git+https://github.com/minejs-org/hmm.git"
 	},
 	"type"                             : "module",
-	"main"                             : "./dist/main.cjs",
-	"types"                            : "./dist/main.d.ts",
-	"bin"                              : {
-		"hmm"                          : "./dist/main.cjs"
+	"main"                             : "./dist/index.cjs",
+	"types"                            : "./dist/index.d.ts",
+	"bin": {
+		"hmm"                          : "./dist/index.cjs"
 	},
 	"files"                            : ["dist"],
-	"exports"                          : {
-		"."                            : {
-			"types"                    : "./dist/main.d.ts",
-			"import"                   : "./dist/main.mjs",
-			"require"                  : "./dist/main.cjs"
+	"exports": {
+		".": {
+			"types"                    : "./dist/index.d.ts",
+			"import"                   : "./dist/index.mjs",
+			"require"                  : "./dist/index.cjs"
 		}
 	},
-	"scripts"                          : {},
-	"engines"                          : {
+	"scripts": {},
+	"engines": {
 		"bun"                          : ">=1.3.3"
 	},
-	"peerDependencies"                 : {
+	"peerDependencies": {
 		"bun"                          : "^1.3.3"
 	},
-	"dependencies"                     : {
+	"dependencies": {
 		"@inquirer/prompts"            : "^8.1.0",
 		"@minejs/cli"                  : "^0.0.5"
 	},
-	"devDependencies"                  : {
+	"devDependencies": {
 		"@eslint/js"                   : "^9.39.2",
 		"@stylistic/eslint-plugin"     : "^5.6.1",
 		"@types/bun"                   : "^1.3.5",

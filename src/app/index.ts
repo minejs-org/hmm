@@ -7,7 +7,7 @@
 // ╔════════════════════════════════════════ PACK ════════════════════════════════════════╗
 
     import { cli }                          from '@minejs/cli';
-    import * as types                       from "../types.d";
+    import * as types                       from "../types";
     import { SpaceManager }                 from './mod/spaceManager';
     import { PackageManagerWrapper }        from './mod/packageManager';
     import { PromptHelper }                 from './mod/promptHelper';
@@ -1121,7 +1121,7 @@
                     if (!mainFile) {
                         PromptHelper.showError(
                             'Could not find built entry point.\n' +
-                            'Expected to find dist/main.js or dist/index.js after build.'
+                            'Expected to find dist/index.js or dist/index.js after build.'
                         );
                         process.exit(1);
                     }
@@ -1177,8 +1177,8 @@
              */
             private findBuiltMainFile(): string | null {
                 const possiblePaths = [
-                    'dist/main.js',
                     'dist/index.js',
+                    'dist/main.js',
                     'dist/app.js'
                 ];
 

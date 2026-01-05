@@ -8,7 +8,7 @@
 
     import { input, select, confirm }   from '@inquirer/prompts';
     import { TemplateRegistry }         from './templateRegistry';
-    import type { SpaceType }           from '../../types.d';
+    import type { SpaceType }           from '../../types';
 
 // ╚══════════════════════════════════════════════════════════════════════════════════════╝
 

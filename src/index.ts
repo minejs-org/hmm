@@ -1,28 +1,25 @@
-// main.test.ts
+// src/index.ts
 //
-// Developed with ❤️ by Maysara.
+// Made with ❤️ by Maysara.
 
 
 
 // ╔════════════════════════════════════════ PACK ════════════════════════════════════════╗
 
-    import { describe, expect, test } from 'bun:test';
+    import { App } from './app';
 
 // ╚══════════════════════════════════════════════════════════════════════════════════════╝
 
 
 
-// ╔════════════════════════════════════════ TEST ════════════════════════════════════════╗
+// ╔════════════════════════════════════════ INIT ════════════════════════════════════════╗
 
-    describe('@minejs/hmm', () => {
-
-        describe('temp', () => {
-            test('should pass', () => {
-                expect(true).toBe(true);
-            });
-
-        });
-
+    const app = App.create({
+        name        : 'Space',
+        version     : '0.0.2',
+        desc        : 'Build flexible spaces for any platform',
     });
+
+    app.run();
 
 // ╚══════════════════════════════════════════════════════════════════════════════════════╝
