@@ -11,10 +11,7 @@
         ".gitignore": true,
         ".gitattributes": true,
         ".npmignore": true,
-        "node_modules": true,
-        ".vscode": true,
-        "tsconfig.json": true,
-        "tsup.config.ts": true
+        ".vscode": true
     },
     "hide-files.files": [
         "eslint.config.mjs",
@@ -23,9 +20,6 @@
         ".gitignore",
         ".gitattributes",
         ".npmignore",
-        "node_modules",
-        ".vscode",
-        "tsconfig.json",
-        "tsup.config.ts"
+        ".vscode"
     ]
 }

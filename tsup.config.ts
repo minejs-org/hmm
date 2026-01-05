@@ -34,7 +34,7 @@ export default defineConfig({
         'zlib',
 
         // Dependencies
-        '@je-es/cli',
+        '@minejs/cli',
         '@inquirer/prompts'
     ],
     target              : 'node23',
