@@ -54,7 +54,7 @@
                     // Clone template from @hmm-repos
                     await this.cloneTemplate(config.type, targetPath, config, config.template);
 
-                    // Create .space config file
+                    // Create .hmm config file
                     this.createSpaceConfig(targetPath, config);
 
                 } catch (error) {
@@ -72,10 +72,10 @@
                 }
             }
 
-            // Load space configuration from .space file
+            // Load space configuration from .hmm file
             loadSpaceConfig(spacePath?: string): SpaceConfig | null {
                 const targetPath = spacePath || this.basePath;
-                const configPath = path.join(targetPath, '.space');
+                const configPath = path.join(targetPath, '.hmm');
 
                 if (!fs.existsSync(configPath)) {
                     return null;
@@ -88,7 +88,7 @@
             // Check if current directory is a space
             isSpace(dirPath?: string): boolean {
                 const targetPath = dirPath || this.basePath;
-                return fs.existsSync(path.join(targetPath, '.space'));
+                return fs.existsSync(path.join(targetPath, '.hmm'));
             }
 
         // └────────────────────────────────────────────────────────────────────┘
@@ -348,11 +348,11 @@
                 return arrayOfFiles;
             }
 
-            // Create .space configuration file
+            // Create .hmm configuration file
             private createSpaceConfig(spacePath: string, config: SpaceConfig): void {
-                const configPath = path.join(spacePath, '.space');
+                const configPath = path.join(spacePath, '.hmm');
 
-                // Generate URLs for .space file
+                // Generate URLs for .hmm file
                 const isOrgProject = config.repo.org && config.repo.org.trim() !== '';
                 const hasGithubId = config.author.id && config.author.id.trim() !== '';
                 const githubOwner = isOrgProject ? config.repo.org : (hasGithubId ? config.author.id : '');

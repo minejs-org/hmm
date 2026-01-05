@@ -397,7 +397,7 @@
             targetDir = path.resolve(process.cwd(), targetDir);
         }
 
-        console.log(`🔍 Scanning for JSON files in: ${targetDir}\n`);
+        // console.log(`🔍 Scanning for JSON files in: ${targetDir}\n`);
 
         const results = JsonFormatter.formatDirectory(targetDir, {
             alignColons: true,
@@ -405,23 +405,23 @@
         });
 
         if (results.success.length > 0) {
-            console.log(`✅ Successfully formatted ${results.success.length} file(s):`);
-            results.success.forEach(file => {
-                const relative = path.relative(process.cwd(), file);
-                console.log(`   - ${relative}`);
-            });
+            // console.log(`✅ Successfully formatted ${results.success.length} file(s):`);
+            // results.success.forEach(file => {
+            //     const relative = path.relative(process.cwd(), file);
+            //     console.log(`   - ${relative}`);
+            // });
         }
 
         if (results.failed.length > 0) {
-            console.log(`\n❌ Failed to format ${results.failed.length} file(s):`);
-            results.failed.forEach(({ file, error }) => {
-                const relative = path.relative(process.cwd(), file);
-                console.log(`   - ${relative}: ${error}`);
-            });
+            // console.log(`\n❌ Failed to format ${results.failed.length} file(s):`);
+            // results.failed.forEach(({ file, error }) => {
+            //     const relative = path.relative(process.cwd(), file);
+            //     console.log(`   - ${relative}: ${error}`);
+            // });
         }
 
         if (results.success.length === 0 && results.failed.length === 0) {
-            console.log('📭 No JSON files found.');
+            // console.log('📭 No JSON files found.');
         }
     }
 
