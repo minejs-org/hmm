@@ -1,6 +1,6 @@
 {
 	"name"                             : "@minejs/hmm",
-	"version"                          : "0.0.6",
+	"version"                          : "0.0.7",
 	"description"                      : "Creates and manages spaces",
 	"keywords"                         : ["minejs", "hmm", "framework"],
 	"license"                          : "MIT",
@@ -40,7 +40,7 @@
 	},
 	"dependencies": {
 		"@inquirer/prompts"            : "^8.1.0",
-		"@minejs/cli"                  : "^0.0.5"
+		"@minejs/cli"                  : "^0.0.7"
 	},
 	"devDependencies": {
 		"@eslint/js"                   : "^9.39.2",

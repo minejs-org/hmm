@@ -1178,7 +1178,7 @@
             private findBuiltMainFile(): string | null {
                 const possiblePaths = [
                     'dist/index.js',
-                    'dist/main.js',
+                    'dist/index.js',
                     'dist/app.js'
                 ];
 
