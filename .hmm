@@ -1,0 +1,23 @@
+{
+	"type"              : "cli",
+	"template"          : "clean",
+	"pm"                : "bun",
+	"repo"              : {
+		"org"           : "minejs",
+		"name"          : "hmm",
+		"version"       : "0.0.1",
+		"desc"          : "Creates and manages the spaces",
+		"kw"            : ["minejs", "hmm"],
+		"license"       : "MIT",
+		"issues"        : "https://github.com/minejs-org/hmm/issues",
+		"homepage"      : "https://github.com/minejs-org/hmm#readme",
+		"git_url"       : "git+https://github.com/minejs-org/hmm.git"
+	},
+	"author"            : {
+		"id"            : "maysara-elshewehy",
+		"name"          : "Maysara",
+		"email"         : "maysara.elshewehy@gmail.com",
+		"url"           : "https://github.com/maysara-elshewehy"
+	},
+	"createdAt"         : "2025-11-29T01:22:48.497Z"
+}
