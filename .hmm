@@ -5,7 +5,7 @@
 	"repo"              : {
 		"org"           : "minejs",
 		"name"          : "hmm",
-		"version"       : "0.0.2",
+		"version"       : "0.0.3",
 		"desc"          : "Creates and manages spaces",
 		"kw"            : ["minejs", "hmm"],
 		"license"       : "MIT",
