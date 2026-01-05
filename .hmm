@@ -5,8 +5,8 @@
 	"repo"              : {
 		"org"           : "minejs",
 		"name"          : "hmm",
-		"version"       : "0.0.1",
-		"desc"          : "Creates and manages the spaces",
+		"version"       : "0.0.2",
+		"desc"          : "Creates and manages spaces",
 		"kw"            : ["minejs", "hmm"],
 		"license"       : "MIT",
 		"issues"        : "https://github.com/minejs-org/hmm/issues",

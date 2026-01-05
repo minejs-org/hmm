@@ -8,7 +8,7 @@
 </div>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/v-0.0.1-black"/>
+    <img src="https://img.shields.io/badge/v-0.0.2-black"/>
     <a href="https://github.com/minejs"> <img src="https://img.shields.io/badge/🔥-@minejs-black"/> </a>
     <br>
     <img src="https://img.shields.io/badge/coverage-100%25-brightgreen" alt="Test Coverage" />
@@ -221,7 +221,7 @@
                 "org"           : "minejs",
                 "name"          : "hmm",
                 "version"       : "0.0.1",
-                "desc"          : "Creates and manages the spaces",
+                "desc"          : "Creates and manages spaces",
                 "kw"            : ["minejs", "hmm"],
                 "license"       : "MIT",
                 "issues"        : "https://github.com/minejs-org/hmm/issues",
