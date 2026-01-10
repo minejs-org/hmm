@@ -366,6 +366,15 @@
                     action              : (params: types.StartParams) => this.startMain(params)
                 })
 
+                // 'go' command - short alias for 'start'
+                .command({
+                    name                : 'go',
+                    description         : 'Start the main file (short for start)',
+                    allowDynamicArgs    : true,    // Allow any arguments to pass through
+                    allowDynamicOptions : true,    // Allow any options to pass through
+                    action              : (params: types.StartParams) => this.startMain(params)
+                })
+
                 // ═══════════════════════════ PUBLISH COMMAND ═══════════════════════════
 
                 // 'publish' command - publish to npm

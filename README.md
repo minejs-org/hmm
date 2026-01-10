@@ -8,7 +8,7 @@
 </div>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/v-0.0.7-black"/>
+    <img src="https://img.shields.io/badge/v-0.0.8-black"/>
     <a href="https://github.com/minejs-org"> <img src="https://img.shields.io/badge/🔥-@minejs-black"/> </a>
     <br>
     <img src="https://img.shields.io/badge/coverage---%25-brightgreen" alt="Test Coverage" />
@@ -116,9 +116,10 @@
         hmm build
 
         # Start the project (builds first, then runs)
-        hmm start                     # Run the built main file
-        hmm start --help              # Pass args to your app
-        hmm start arg1 arg2 --flag    # All args passed through
+        # you can use `go` or `start`
+        hmm go                        # Run the built main file
+        hmm go --help                 # Pass args to your app
+        hmm go arg1 arg2 --flag       # All args passed through
 
         # Run tests
         hmm test                              # Run all tests
