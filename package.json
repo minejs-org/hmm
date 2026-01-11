@@ -1,6 +1,6 @@
 {
 	"name"                             : "@minejs/hmm",
-	"version"                          : "0.0.8",
+	"version"                          : "0.0.9",
 	"description"                      : "Creates and manages spaces",
 	"keywords"                         : ["minejs", "hmm", "framework"],
 	"license"                          : "MIT",

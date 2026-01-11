@@ -104,7 +104,7 @@
                 template: TemplateVariant
             ): Promise<void> {
                 const repoName = TemplateRegistry.getRepoName(type, template);
-                const repoUrl = `https://github.com/hmm-repos/${repoName}.git`;
+                const repoUrl = `https://github.com/repo-example/${repoName}.git`;
 
                 try {
                     const { execSync } = await import('child_process');

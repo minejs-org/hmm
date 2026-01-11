@@ -8,7 +8,7 @@
 </div>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/v-0.0.8-black"/>
+    <img src="https://img.shields.io/badge/v-0.0.9-black"/>
     <a href="https://github.com/minejs-org"> <img src="https://img.shields.io/badge/🔥-@minejs-black"/> </a>
     <br>
     <img src="https://img.shields.io/badge/coverage---%25-brightgreen" alt="Test Coverage" />
@@ -164,7 +164,7 @@
             >
             > Perfect for publishing reusable packages
             >
-            > Example: [hmm-repos/lib](https://github.com/hmm-repos/lib)
+            > Example: [repo-example/lib](https://github.com/repo-example/lib)
 
         - **`cli`** - Command-line tool
 
@@ -172,7 +172,7 @@
             >
             > Built-in argument parsing and command handling
             >
-            > Example: [hmm-repos/cli](https://github.com/hmm-repos/cli)
+            > Example: [repo-example/cli](https://github.com/repo-example/cli)
 
         - **`server`** - Backend server application
 
@@ -180,7 +180,7 @@
             >
             > Ready for API and backend services
             >
-            > Example: [hmm-repos/server](https://github.com/hmm-repos/server)
+            > Example: [repo-example/server](https://github.com/repo-example/server)
 
         - **`app`** - Full-stack web application
 
@@ -188,7 +188,7 @@
             >
             > Complete web application stack
             >
-            > Example: [hmm-repos/app](https://github.com/hmm-repos/app)
+            > Example: [repo-example/app](https://github.com/repo-example/app)
 
     <div align="center"> <img src="./assets/img/line.png" alt="line" style="display: block; margin-top:20px;margin-bottom:20px;width:500px;"/> <br> </div>
 
