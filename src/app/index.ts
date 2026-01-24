@@ -380,6 +380,7 @@
                 // 'publish' command - publish to npm
                 .command({
                     name            : 'publish',
+                    aliases         : ['pub'],
                     description     : 'Publish space to npm registry',
 
                     options: [
@@ -396,6 +397,13 @@
                             type        : 'string',
                             required    : false,
                             description : 'Access level (public or restricted)'
+                        },
+                        {
+                            name        : 'forcePublic',
+                            flag        : '--f',
+                            type        : 'boolean',
+                            required    : false,
+                            description : 'Short for --access public'
                         }
                     ],
 
@@ -1234,6 +1242,10 @@
                     // Prompt for publish options if not provided
                     let tag     = params.options?.tag     || undefined;
                     let access  = params.options?.access  || undefined;
+
+                    if (params.options?.forcePublic) {
+                        access = 'public';
+                    }
 
                     if (!tag && !access) {
                         const publishAnswers = await PromptHelper.promptPublish(fullName);

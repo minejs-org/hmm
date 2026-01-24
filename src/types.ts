@@ -165,6 +165,7 @@
         options: ParsedCommand['options'] & {
             tag?: string;
             access?: PublishAccess;
+            forcePublic?: boolean;
         };
     }
 

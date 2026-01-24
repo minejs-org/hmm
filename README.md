@@ -8,7 +8,7 @@
 </div>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/v-0.0.9-black"/>
+    <img src="https://img.shields.io/badge/v-0.1.0-black"/>
     <a href="https://github.com/minejs-org"> <img src="https://img.shields.io/badge/🔥-@minejs-black"/> </a>
     <br>
     <img src="https://img.shields.io/badge/coverage---%25-brightgreen" alt="Test Coverage" />
@@ -150,6 +150,8 @@
         hmm publish --tag beta                # Publish with tag
         hmm publish --access public           # Set access level (public/restricted)
         hmm publish --tag next --access public
+        #or
+        hmm pub --f
         ```
 
     <br>
